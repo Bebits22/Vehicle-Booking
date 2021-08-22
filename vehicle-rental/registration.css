@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+/*======= NAVIGATION =========*/
+.navbar {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffce2c;
+}
+.navbar-toggler {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/*======== BUTTON ========*/
+.button {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 2px;
+  background-color: #000000;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button.button-main:hover {
+  color: #000000;
+}
+
+/*======== INPUT BUTTON =========*/
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 8px 15px;
+  border-radius: 2px;
+  background-color: #000000;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #ffc400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*============ SIGN IN TEXT BLOCK ============*/
+.text {
+  font-style: italic;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.signin {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+/*============ SIGN UP FORM ============*/
+.form-container {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #a2a2a2;
+}
+.form-header {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.inputname {
+  font-weight: 600;
+  padding-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.form-input.dformat {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 6px;
+}
+.form-control {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*============ SOCKET ===============*/
+.socket {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #222222;
+  border-top: 0.2rem solid #ffc400;
+
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/*======== MEDIA QUERIES =========*/
+@media (min-width: 992px) {
+  .text {
+    padding-top: 250px;
+  }
+  .text-box {
+    padding-right: 100px;
+  }
+  body {
+    background: url(images/background.png) no-repeat;
+  }
+}
